@@ -5,8 +5,8 @@ set(HEADER_FILES ${CMAKE_SOURCE_DIR}/include/DepthEstimator.h)
 include(FetchContent)
 FetchContent_Declare(
         cmodule
-        URL "https://github.com/scapix-com/cmodule/archive/refs/tags/v1.0.32.tar.gz"  # Build fails with v1.0.33
-        URL_HASH SHA256=e6937c95d73188a5add846b27cd00160fe4f6ea31af33be417d2ab7ac19bd8d2
+        URL "https://github.com/scapix-com/cmodule/archive/refs/tags/v1.0.34.tar.gz"
+        URL_HASH SHA256=b9292c8022d0f2bc37a1e6acb9c2fb8626219e926fd7254d931f373b8a2c1ec2
 )
 FetchContent_MakeAvailable(cmodule)
 
