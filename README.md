@@ -1,1 +1,0 @@
-# sgbm_android
